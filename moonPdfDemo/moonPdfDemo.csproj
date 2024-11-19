@@ -9,6 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resource\Where Do My Thoughts Go.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resource\Where Do My Thoughts Go.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MoonPdfLib.Package-x86" Version="0.3.7" />
   </ItemGroup>
 
